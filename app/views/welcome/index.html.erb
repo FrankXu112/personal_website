@@ -1,7 +1,7 @@
  <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1>Frank Xu</h1>
+            <h1>Hi, My Name is Frank Xu</h1>
             <h3>Full Stack Web Developer</h3>
             <br>
             <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>My name is Frank</h2>
+                    <h2>About Me</h2>
                     <p class="lead">I was born in China and finished all high school education there. I came to Canada 5 years ago, and I love this country. I studied Finace in British Columbia Institue of Technology in Vancouver. However, I got bored after studying Finace for 3 years and find out programming is what I really want to do. So, I came to Toronto for a 9 weeks immersive web-development boot camp. Here are the projects I built in last 9 weeks.</p>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <i class="fa fa-rubyonrails fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
                                     <strong>Service Name</strong>
@@ -61,10 +61,10 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-flask fa-stack-1x text-primary"></i>
+                                <i class="fa fa-html5 fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>HTML5</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a>
@@ -74,10 +74,10 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
+                                <i class="fa fa-css3 fa-stack-1x text-primary"></i>
                             </span>
                                 <h4>
-                                    <strong>Service Name</strong>
+                                    <strong>CSS3</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <a href="#" class="btn btn-light">Learn More</a>
@@ -177,13 +177,24 @@
                     <br>
                     <ul class="list-inline">
                         <li>
-                            <a href="https://www.facebook.com/frank.xu.9275"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                            <%= link_to "https://www.facebook.com/frank.xu.9275", :target => "_blank" do %>
+                                <i class="fa fa-facebook fa-fw fa-3x"></i>
+                            <% end %>
                         </li>
                         <li>
-                            <a href="https://twitter.com/Anjiu123"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                            <%= link_to "https://twitter.com/Anjiu123", :target => "_blank" do %>
+                                <i class="fa fa-twitter fa-fw fa-3x"></i>
+                            <% end %>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                            <%= link_to "https://www.linkedin.com/profile/view?id=415212198&trk=nav_responsive_tab_profile", :target => "_blank" do %>
+                                <i class="fa fa-linkedin fa-fw fa-3x"></i>
+                            <% end %>
+                        </li>
+                        <li>
+                            <%= link_to "https://github.com/FrankXu112", :target => "_blank" do %>
+                                <i class="fa fa-github fa-fw fa-3x"></i>
+                            <% end %>
                         </li>
                     </ul>
                     <hr class="small">

@@ -95,10 +95,10 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-code fa-stack-1x text-primary faa-pulse animated"></i>
+                                <i class="fa fa-database fa-stack-1x text-primary faa-pulse animated"></i>
                             </span>
                                 <h4>
-                                    <strong>Angular JS</strong>
+                                    <strong>SQL</strong>
                                 </h4>
                                 <p></p>
                             </div>
@@ -130,7 +130,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="portfolio-item"> 
-                                <%= link_to "https://www.facebook.com/frank.xu.9275", :target => "_blank" do %><img src="assets/portfolio-1.jpg" class="img-portfolio img-responsive">
+                                <%= link_to "https://www.puriinspa.com", :target => "_blank" do %><img src="assets/portfolio-1.jpg" class="img-portfolio img-responsive">
                                 <% end %>
                             </div>
                         </div>
@@ -240,7 +240,7 @@
 
     // Scrolls to the selected menu item on the page
     $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
+        $('a[href*=\\#]:not([href=\\#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
                 var target = $(this.hash);
